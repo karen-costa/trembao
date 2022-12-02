@@ -1,0 +1,189 @@
+*{
+    max-width: 1500px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner1{
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+    height: 270px;    
+}
+
+
+ul{
+    scroll-behavior: smooth;
+    margin-top: 20px;
+    padding: 20px o;
+    display: flex;
+    justify-content: center;
+    gap: 8px;  
+    font-size: 22px; 
+    list-style: none;
+    color: #fff;
+}
+
+.linha{
+    height: 20px;
+    border-right: 1px solid white;   
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 180px;
+    padding: 2px;
+    box-shadow: 2px 2px 20px black;
+}
+
+
+.item-galeria{
+
+    position: relative;
+}
+
+.item-galeria .img-galeria{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.h1{
+
+    grid-row: span 1;
+}
+
+.h2{
+
+    grid-row: span 2;
+}
+
+.h3{
+
+    grid-column: span 23
+}
+
+.h4{
+
+    grid-column: span 4;
+}
+
+.w1{
+
+    grid-column: span 1;
+}
+
+.w2{
+
+    grid-column: span 2;
+}
+
+.w3{
+
+    grid-column: span 3;
+}
+
+.w4{
+
+    grid-column: span 4;
+}
+
+.descricao{
+    margin-left: 50px;
+    margin-top: 300px;
+    margin-bottom: 80px;
+    height: 300px;
+}
+
+
+.topo{
+    font-style:italic;
+    font-family: 'Dancing Script';
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+
+table{
+
+    background-color: rgba(255, 255, 255, 0.493);
+}
+
+table p{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 1rem;
+    color:#942730;
+    font-family:Lucida Fax;
+    font-size: 25px;
+}
+
+.descricao{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+    margin-top: 50px;
+    height: 400px;
+}
+
+.botao{
+    color:#942730;
+    padding: 0 20px;
+    background-color: transparent;
+    border:0.5%;
+    border-color: #942730;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-left: 250px;
+}
+
+footer{
+    height: 50px;
+    background-color: #942730;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 90%;
+}
+
+footer p{
+    color: white;
+}
+
+.topo2{
+    background-color: rgba(255, 255, 255, 0.493);
+    position:fixed;
+    bottom: 20px;
+    right: -500px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s all;
+}
+
+.show-button .topo2{
+    right: 60px;
+    transition: .4s all;
+}

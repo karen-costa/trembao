@@ -1,0 +1,118 @@
+*{
+    max-width: 1500px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner1{
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+    height: 270px;
+}
+
+
+ul{
+    margin-top: 20px;
+    padding: 20px o;
+    display: flex;
+    justify-content: center;
+    gap: 8px;  
+    font-size: 22px;
+    color: #fff;
+    list-style: none;
+}
+
+.linha{
+    height: 20px;
+    border-right: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section{
+    height: 900px;
+}
+.conteiner{
+    background-color: rgba(255, 255, 255, 0.493) ;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 50px 50px 50px;
+    height: 700px;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 3%;
+}
+
+h1{
+    font-size: 50px;
+    color: #942730;
+    text-align: center;
+    margin-top: 7rem;
+    font-style:italic;
+    font-family: 'Dancing Script';
+}
+
+h2{
+    font-size: 45px;
+    color: #942730;
+    margin-top: 7rem;
+    font-style:italic;
+    font-family: 'Dancing Script';
+}
+
+.grid-iten{
+    font-size: 25px;
+    margin-top: 10rem;
+    text-align: center;
+    height: 300px;
+}
+
+footer{
+    height: 90px;
+    background-color: #942730;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 90%;
+}
+
+footer p{
+    margin-top: 2rem;
+    color: white;
+}
+
+.topo2{
+    background-color: rgba(255, 255, 255, 0.493);
+    position:fixed;
+    bottom: 20px;
+    right: -500px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s all;
+}
+
+.show-button .topo2{
+    right: 60px;
+    transition: .4s all;
+}

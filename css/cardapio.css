@@ -1,0 +1,159 @@
+*{
+    max-width: 1500px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner1{
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+    height: 270px;
+}
+
+
+ul{
+    scroll-behavior: smooth;
+    margin-top: 20px;
+    padding: 20px o;
+    display: flex;
+    justify-content: center;
+    gap: 8px; 
+    font-size: 22px; 
+    color: #fff;
+    list-style: none;
+    
+}
+
+.linha{
+    height: 20px;
+    border-right: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.conteiner{ 
+    margin-top: 0%;
+    background-color: rgba(255, 255, 255, 0.897) ;
+}
+
+.conteiner h1{
+    margin-top: 2rem;
+    font-style: italic;
+    font-size: 40px;
+    font-family: 'Dancing Script';
+    color: #7c131c;
+}
+
+.conteiner2{
+    color:goldenrod;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(14, 90px);
+    justify-items:flex-start;
+    margin-left: 300px;
+}
+
+.grid-iten{
+    margin-left: 50px;
+}
+
+.conteiner2 p{
+    color: black;
+}
+
+.comida img{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    margin-bottom: -100px;
+    margin-left: 2rem;
+    border-radius: 30%;
+    box-shadow: 1px 1px 10px black;
+}
+
+.sobremesa img{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    margin-bottom: -100px;
+    margin-left: 2rem;
+    border-radius: 30%;
+    box-shadow: 1px 1px 10px black;
+}
+
+.bebidas img{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    margin-bottom: -100px;
+    margin-left: 2rem;
+    border-radius: 30%;
+    box-shadow: 1px 1px 10px black;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0;
+	border-top: 2px solid rgba(0, 0, 0, 0.432);
+}
+
+footer{
+    height: 80px;
+    background-color: #942730;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 90%;
+}
+
+footer p{
+    margin-top: 2rem;
+    color: white;
+}
+
+.topo2{
+    background-color: rgba(255, 255, 255, 0.493);
+    position:fixed;
+    bottom: 20px;
+    right: -500px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s all;
+}
+
+.show-button .topo2{
+    right: 60px;
+    transition: .4s all;
+}
+    
+
+
+
+
